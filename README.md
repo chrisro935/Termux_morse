@@ -15,3 +15,15 @@ A colorful, audio-enhanced Morse code encoder and decoder script for Termux!
    ```bash
    git clone https://github.com/chrisro935/Termux_morse.git
    cd morse.sh
+
+2. Make the file executable
+   ```bash
+   chmod +x morse.sh
+
+3. Ensure you have Termux required packages
+   ```bash
+   pkg install termux-api termux-media-player
+
+4. Run the tool
+   ```bash
+   ./morse.sh
