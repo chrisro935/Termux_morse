@@ -1,12 +1,17 @@
-# morse.sh
-Simple bash script for morse code encryption and decryption excitable in termux with playback.
+# 🛰️ Termux Morse Code Tool
 
-you'll need to add the .wav files for the dots and dashes.
+A colorful, audio-enhanced Morse code encoder and decoder script for Termux!
 
-create the file with nano morse.sh
+## 🎯 Features
 
-paste the script into the nano file
+- 🔤 Encode text to Morse with colored output
+- 🔊 Plays beeps for dot and dash (`dot.wav` & `dash.wav`)
+- 🗣️ Decodes Morse code and speaks the output with `termux-tts-speak`
+- 🎨 Colorful and fun terminal UI
 
-make the script exicutable chmod +x morse.sh
+## 📦 Installation
 
-run the script ./morse.sh
+1. Clone the repo or download as ZIP:
+   ```bash
+   git clone https://github.com/chrisro935/Termux_morse.git
+   cd morse.sh
