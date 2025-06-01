@@ -27,3 +27,25 @@ A colorful, audio-enhanced Morse code encoder and decoder script for Termux!
 4. Run the tool
    ```bash
    ./morse.sh
+
+## 📁 Files Included
+
+morse.sh — The main Morse encoder/decoder
+
+dot.wav — Beep for dot
+
+dash.wav — Beep for dash
+
+
+## 💡 Notes
+
+Designed for Termux on Android
+
+Requires termux-api and termux-media-player
+
+Place all files in one directory — do not move .wav files
+
+
+## 📜 License
+
+MIT
